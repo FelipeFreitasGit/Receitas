@@ -18,9 +18,28 @@
     text-align: center;
 }
 
-// realiar se essa solução é a melhor
-@media only screen and (max-width: 1090px) {
+@media only screen and (max-width: 1500px) {
     .box {
-      width: 203px;
+      width: 300px;
     }
-}
+  }
+  
+  
+  @media only screen and (max-width: 1090px) {
+    .box {
+      width: 200px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+     .box {
+       width: 400px;
+     }
+   }
+  
+  @media only screen and (max-width: 425px) {
+    .box {
+      width: 300px;
+    }
+  }
