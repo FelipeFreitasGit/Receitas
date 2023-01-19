@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { IMenuBox } from './menu-box';
 
 @Component({
   selector: 'app-menu-box',
@@ -8,5 +7,7 @@ import { IMenuBox } from './menu-box';
 })
 export class MenuBoxComponent {
 
-  @Input() menu!: IMenuBox;
+  @Input() icone = '';
+  @Input() nome = '';
+  @Input() resumo = '';
 }
