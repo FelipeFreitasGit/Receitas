@@ -6,6 +6,7 @@
             "tempo_de_preparo": "100 min",
             "rendimento": "15 Porções",
             "avaliacao": 5,
+            "icone": "receita01",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
@@ -87,11 +88,12 @@
             ]
         },
         {
-            "id": 3,
+            "id": 2,
             "nome": "Bolo de Baunilha e chocolate",
             "tempo_de_preparo": "60 min",
             "rendimento": "12 Porções",
             "avaliacao": 5,
+            "icone": "receita02",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
@@ -125,11 +127,12 @@
             ]
         },
         {
-            "id": 4,
+            "id": 3,
             "nome": "Bolo Naked de Chocolate com Morangos e Chantilly",
             "tempo_de_preparo": "120 min",
             "rendimento": "10 Porções",
             "avaliacao": 5,
+            "icone": "receita03",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
@@ -179,11 +182,12 @@
             ]
         },
         {
-            "id": 2,
+            "id": 4,
             "nome": "BOLO DE MORANGOS, CHOCOLATE BRANCO E MASSA FOLHADA",
             "tempo_de_preparo": "2 horas 15 mins",
             "rendimento": "10 Porções",
             "avaliacao": 5,
+            "icone": "receita04",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
