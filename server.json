@@ -127,61 +127,6 @@
             ]
         },
         {
-            "id": 3,
-            "nome": "Bolo Naked de Chocolate",
-            "tempo_de_preparo": "120 min",
-            "rendimento": "10 Porções",
-            "avaliacao": 5,
-            "icone": "receita03",
-            "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
-            "ingredientes": [
-                {
-                    "categoria": "Massa",
-                    "itens": [
-                        "150 g de chocolate 70% cacau",
-                        "130 g de manteiga sem sal ou margarina",
-                        "90 g de açúcar em pó",
-                        "06 ovos",
-                        "90 g de açúcar",
-                        "130 g de farinha",
-                        "01 colher de chá de fermento em pó"
-                    ]
-                },
-                {
-                    "categoria": "Recheio e Cobertura",
-                    "itens": [
-                        "200 g de doce de morango",
-                        "400 ml de natas",
-                        "04 colheres de sopa de açúcar em pó",
-                        "500 g de morangos lavados, sem o pé e partidos ao meio (deixar alguns inteiros e com o pé para a decoração)"
-                    ]
-                }
-            ],
-            "modo_preparo": [
-                {
-                    "categoria": "Massa",
-                    "itens": [
-                        "Partir o chocolate aos bocados e derreter em banho-maria. Deixar arrefecer sem solidificar.",
-                        "Bater a margarina com o açúcar em pó até obter um creme.",
-                        "Juntar 6 gemas uma a uma, e o chocolate derretido.",
-                        "Bater 6 claras em castelo bem firme com o açúcar e adicionar cuidadosamente à massa, alternando com a farinha peneirada com o fermento.",
-                        "Forrar o fundo de 2 formas de +/- 20 cm com papel vegetal e untar com margarina.",
-                        "Separar a massa em quantidades iguais pelas duas formas e levar a forno médio (175ºC) durante cerca de 60 minutos.",
-                        "Deixar os bolos arrefecerem e cortar, cada um, em duas camadas."
-                    ]
-                },
-                {
-                    "categoria": "Recheio e Cobertura",
-                    "itens": [
-                        "Deitar o doce num tacho e levar ao lume com 4 colheres de água até começar a levantar fervura. Deixar arrefecer um pouco e coar, para ficar só o liquido.", 
-                        "Fazer um chantilly espesso com as natas e as 4 colheres de açúcar em pó.",
-                        "Colocar uma parte do bolo no prato de servir, pincelar com doce, barrar com chantilly e colocar alguns morangos. Repetir esta operação com todas as partes do bolo, até fazer as 4 camadas.",
-                        "No final coloque o resto do chantilly, sem chegar ás bordas, e decore com os morangos com pé." 
-                    ]
-                }
-            ]
-        },
-        {
             "id": 4,
             "nome": "BOLO DE MORANGOS",
             "tempo_de_preparo": "2 horas 15 mins",
@@ -277,6 +222,61 @@
                         "Antes que endureça, despeje a ganache em cima do bolo já frio, tomando cuidado para não cobrir completamente ou derrubar os morangos.",
                         "Leve à geladeira por cerca de 3-4 horas.",
                         "Retire o bolo da forma, e cubra os lados com o resto da ganache de chocolate branco. Se quiser, também pode cobrir os lados com biscoito maisena em pedaços ou o resto de massa folhada em migalhas."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Bolo Naked de Chocolate",
+            "tempo_de_preparo": "120 min",
+            "rendimento": "10 Porções",
+            "avaliacao": 5,
+            "icone": "receita03",
+            "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
+            "ingredientes": [
+                {
+                    "categoria": "Massa",
+                    "itens": [
+                        "150 g de chocolate 70% cacau",
+                        "130 g de manteiga sem sal ou margarina",
+                        "90 g de açúcar em pó",
+                        "06 ovos",
+                        "90 g de açúcar",
+                        "130 g de farinha",
+                        "01 colher de chá de fermento em pó"
+                    ]
+                },
+                {
+                    "categoria": "Recheio e Cobertura",
+                    "itens": [
+                        "200 g de doce de morango",
+                        "400 ml de natas",
+                        "04 colheres de sopa de açúcar em pó",
+                        "500 g de morangos lavados, sem o pé e partidos ao meio (deixar alguns inteiros e com o pé para a decoração)"
+                    ]
+                }
+            ],
+            "modo_preparo": [
+                {
+                    "categoria": "Massa",
+                    "itens": [
+                        "Partir o chocolate aos bocados e derreter em banho-maria. Deixar arrefecer sem solidificar.",
+                        "Bater a margarina com o açúcar em pó até obter um creme.",
+                        "Juntar 6 gemas uma a uma, e o chocolate derretido.",
+                        "Bater 6 claras em castelo bem firme com o açúcar e adicionar cuidadosamente à massa, alternando com a farinha peneirada com o fermento.",
+                        "Forrar o fundo de 2 formas de +/- 20 cm com papel vegetal e untar com margarina.",
+                        "Separar a massa em quantidades iguais pelas duas formas e levar a forno médio (175ºC) durante cerca de 60 minutos.",
+                        "Deixar os bolos arrefecerem e cortar, cada um, em duas camadas."
+                    ]
+                },
+                {
+                    "categoria": "Recheio e Cobertura",
+                    "itens": [
+                        "Deitar o doce num tacho e levar ao lume com 4 colheres de água até começar a levantar fervura. Deixar arrefecer um pouco e coar, para ficar só o liquido.", 
+                        "Fazer um chantilly espesso com as natas e as 4 colheres de açúcar em pó.",
+                        "Colocar uma parte do bolo no prato de servir, pincelar com doce, barrar com chantilly e colocar alguns morangos. Repetir esta operação com todas as partes do bolo, até fazer as 4 camadas.",
+                        "No final coloque o resto do chantilly, sem chegar ás bordas, e decore com os morangos com pé." 
                     ]
                 }
             ]
