@@ -1,0 +1,53 @@
+.container-main {
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 40px;
+
+    h1 {
+        font-size: 3.5rem;
+        color:#bfa065;
+        font-weight: bold;
+    }
+
+    .info-uteis {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        
+        .item {
+            display: flex;
+            margin-right: 20px;        
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    margin: 0px;
+                }
+            }
+
+            .div_icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+                border-radius: 150px;
+                background-color: #bfa065;
+                margin-right: 15px;
+    
+                img {
+                    width: 25px;
+                    height: 25px;
+                    position: relative;
+                    right: -1px;
+                }
+            }
+        }
+    }
+}
