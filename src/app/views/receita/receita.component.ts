@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 import { IReceitas } from 'src/app/interfaces/receitas';
 import { ReceitasService } from 'src/app/services/receitas.service';
 
@@ -10,18 +10,22 @@ import { ReceitasService } from 'src/app/services/receitas.service';
 })
 export class ReceitaComponent implements OnInit {
 
+  state: any;
+
   constructor(
-    private router: ActivatedRoute,
+    private router: Router,
     private receitasService: ReceitasService
-  ) { }
+    ) {
+      const route = this.router.getCurrentNavigation();
+      this.state = route?.extras.state;
+    }
+    
+    ngOnInit(): void {
+          
+      this.receitasService.getReceita(this.state.id)
+        .subscribe((response: IReceitas) => {
 
-  ngOnInit(): void {
-    const id = this.router.snapshot.paramMap.get('id')
-
-    this.receitasService.getReceita(id!)
-      .subscribe((response: IReceitas) => {
-
-        console.log(response)
-      })
+          console.log(response)
+        })
   }
 }
