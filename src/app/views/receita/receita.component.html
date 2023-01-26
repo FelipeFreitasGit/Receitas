@@ -1,5 +1,5 @@
-<main class="container-main">
-    <h1>Bolo Naked de Chocolate</h1>
+<main class="container-main" *ngIf="receita">
+    <h1>{{ receita.nome | titlecase }}</h1>
     <div class="info-uteis">
         <div class="item">
             <div class="div_icon">
@@ -7,30 +7,27 @@
             </div>
             <div class="text">
                 <p>Tempo de preparo</p>
-                <p>1h30</p>
+                <p>{{ receita.tempo_de_preparo }}</p>
             </div>
         </div>
         <div class="item">
             <div class="div_icon">
-                <img src="assets/img/icon_time.svg">
+                <img src="assets/img/icon_rendimento.svg">
             </div>
             <div class="text">
                 <p>Rendimento</p>
-                <p>10 Porções</p>
+                <p>{{ receita.rendimento }}</p>
             </div>
         </div>
         <div class="item">
-            <div class="div_icon">
-                <img src="assets/img/icon_time.svg">
-            </div>
             <div class="text">
                 <p>Avaliação</p>
-                <p>5</p>
+                <p>{{ receita.avaliacao }}</p>
             </div>
         </div>
     </div>
     <div class="info-receita">
-        <div><img src="assets/img/ferrero_rocher_01.png" alt="bolo"></div>
+        <div><img src="assets/img/{{firstImage}}" alt="bolo"></div>
         <div class="scroller">
             <h3>Ingredientes</h3>
             <p style="font-weight: bold; color: #212529;">Pão de Ló de Chocolate:</p>
@@ -56,6 +53,6 @@
                 <li><p>20 g de cacau em pó Garoto</p></li>
             </ul>
         </div>
-        <div><img src="assets/img/ferrero_rocher_02.jpg" alt="bolo"></div>
+        <div><img src="assets/img/{{secondImage}}" alt="bolo"></div>
     </div>
 </main>
