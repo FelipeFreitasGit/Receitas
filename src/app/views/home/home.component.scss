@@ -34,9 +34,10 @@
         
             p {
                 font-size: 1.2rem;
-                font-family:'Open Sans', sans-serif;
+                //font-family:'Open Sans', sans-serif;
                 color: #808080;
                 text-align: justify;
+                font-weight: 100;
             }
         }
 
@@ -52,6 +53,16 @@
         app-menu-box {
             display: flex;
             align-items: stretch;
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .background {
+        .titulo {
+            .introducao {
+                padding-right: 300px;
+            }
         }
     }
 }
