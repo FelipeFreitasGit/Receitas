@@ -60,8 +60,12 @@ export class ReceitaComponent implements OnInit {
         })
     }
 
-    open() {
+    openModal() {
       const modalRef = this.modalService.open(ModalComponent, { centered: true });
-      modalRef.componentInstance.name = 'World';
+      modalRef.closed.subscribe(() => {
+          this.receitasService.deleteReceita(this.receita.id).subscribe(() => {
+            this.router.navigateByUrl("/home")
+          })
+      })
     }
 }

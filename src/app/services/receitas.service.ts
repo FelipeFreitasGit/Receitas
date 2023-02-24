@@ -18,4 +18,8 @@ export class ReceitasService {
   getReceita(id: string) {
     return this.http.get<IReceitas>(`${this.apiUrl}/${id}`) 
   }
+
+  deleteReceita(id: number) {
+    return this.http.delete<IReceitas>(`${this.apiUrl}/${id}`)
+  }
 }
