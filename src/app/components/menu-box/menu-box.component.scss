@@ -21,18 +21,6 @@
     text-align: center;
     cursor: pointer;
     position: relative;
-    
-    .icons {
-      display: none;
-    }
-}
-.box:hover {
-  .icons {
-    display: flex;
-    gap: 10px;
-    position: absolute;
-    right: 30px;
-  }
 }
 
 @media only screen and (max-width: 1500px) {

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ModalComponent } from 'src/app/components/modal/modal.component';
 import { FirstImage } from 'src/app/enums/first-image';
 import { SecondImage } from 'src/app/enums/second-image';
 import { IReceitas } from 'src/app/interfaces/receitas';
@@ -20,7 +22,8 @@ export class ReceitaComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private receitasService: ReceitasService
+    private receitasService: ReceitasService,
+    private modalService: NgbModal
     ) {
       const route = this.router.getCurrentNavigation();
       this.state = route?.extras.state;
@@ -55,5 +58,10 @@ export class ReceitaComponent implements OnInit {
               break;
           }
         })
+    }
+
+    open() {
+      const modalRef = this.modalService.open(ModalComponent, { centered: true });
+      modalRef.componentInstance.name = 'World';
     }
 }
