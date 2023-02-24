@@ -8,6 +8,7 @@ import { MenuBoxComponent } from './components/menu-box/menu-box.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ReceitaComponent } from './views/receita/receita.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ReceitaComponent } from './views/receita/receita.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
